@@ -1,7 +1,5 @@
 FROM amazoncorretto:17-alpine
 
-# Set a temporary directory for runtime
-VOLUME /tmp
 
 # Copy your Spring Boot JAR file into the container
 COPY target/parishservice-0.0.1-SNAPSHOT.jar parishservice-0.0.1-SNAPSHOT.jar
